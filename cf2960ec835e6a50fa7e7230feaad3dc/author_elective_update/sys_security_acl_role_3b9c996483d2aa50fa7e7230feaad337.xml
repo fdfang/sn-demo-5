@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 13:32:26</sys_created_on>
+        <sys_id>3b9c996483d2aa50fa7e7230feaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1755686_test_acl.test_role</sys_name>
+        <sys_package display_value="Test ACL" source="x_1755686_test_acl">cf2960ec835e6a50fa7e7230feaad3dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test ACL">cf2960ec835e6a50fa7e7230feaad3dc</sys_scope>
+        <sys_security_acl display_value="">a59cdd6483d2aa50fa7e7230feaad394</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3b9c996483d2aa50fa7e7230feaad337</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-19 13:32:26</sys_updated_on>
+        <sys_user_role display_value="x_1755686_test_acl.test_role" name="x_1755686_test_acl.test_role">3bbcd1a483d2aa50fa7e7230feaad368</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Test ACL">cf2960ec835e6a50fa7e7230feaad3dc</application>
+        <file_path/>
+        <instance_id>9863785debec6e5456eafddacad0cd61</instance_id>
+        <instance_name>dev311432</instance_name>
+        <name>sys_security_acl_role_3b9c996483d2aa50fa7e7230feaad337</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-19 13:32:26</sys_created_on><sys_id>3b9c996483d2aa50fa7e7230feaad337</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1755686_test_acl.test_role</sys_name><sys_package display_value="Test ACL" source="x_1755686_test_acl">cf2960ec835e6a50fa7e7230feaad3dc</sys_package><sys_policy/><sys_scope display_value="Test ACL">cf2960ec835e6a50fa7e7230feaad3dc</sys_scope><sys_security_acl display_value="">a59cdd6483d2aa50fa7e7230feaad394</sys_security_acl><sys_update_name>sys_security_acl_role_3b9c996483d2aa50fa7e7230feaad337</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-19 13:32:26</sys_updated_on><sys_user_role display_value="x_1755686_test_acl.test_role" name="x_1755686_test_acl.test_role">3bbcd1a483d2aa50fa7e7230feaad368</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>903558893</payload_hash>
+        <record_name>.x_1755686_test_acl.test_role</record_name>
+        <reverted_from/>
+        <source>432960ec835e6a50fa7e7230feaad3e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 13:32:26</sys_created_on>
+        <sys_id>8e116d2c83d2aa50fa7e7230feaad3a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197886407fd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-19 13:32:26</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>82116d2c44d2aa50a45bb42ff5c73ea7</update_guid>
+        <update_guid_history>82116d2c44d2aa50a45bb42ff5c73ea7:903558893</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_1755686_test_acl.test_role">9d017de08356aa50fa7e7230feaad3fa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 14:42:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>b60dbe3e75664160bdc522525d9b4400</sys_id>
+        <sys_metadata>3b9c996483d2aa50fa7e7230feaad337</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1755686_test_acl.test_role</sys_name>
+        <sys_package display_value="Test ACL" source="x_1755686_test_acl">cf2960ec835e6a50fa7e7230feaad3dc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Test ACL">cf2960ec835e6a50fa7e7230feaad3dc</sys_scope>
+        <sys_scope_delete display_value="">266115d9ad464c74a363b6b1dc1b9a91</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_3b9c996483d2aa50fa7e7230feaad337</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_3b9c996483d2aa50fa7e7230feaad337">8e116d2c83d2aa50fa7e7230feaad3a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-19 14:42:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

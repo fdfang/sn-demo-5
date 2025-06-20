@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to table="incident">state=3^EQ<item display_value="On Hold" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </applies_to>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>deny</decision_type>
+        <description>Deny write for records in incident if the record matches the criteria (state=3^EQ), unless users have the role x_1755686_test_acl.test_role.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>incident</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 13:32:26</sys_created_on>
+        <sys_id>a59cdd6483d2aa50fa7e7230feaad394</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>incident</sys_name>
+        <sys_package display_value="Test ACL" source="x_1755686_test_acl">cf2960ec835e6a50fa7e7230feaad3dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test ACL">cf2960ec835e6a50fa7e7230feaad3dc</sys_scope>
+        <sys_update_name>sys_security_acl_a59cdd6483d2aa50fa7e7230feaad394</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-19 14:13:20</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Test ACL">cf2960ec835e6a50fa7e7230feaad3dc</application>
+        <file_path/>
+        <instance_id>9863785debec6e5456eafddacad0cd61</instance_id>
+        <instance_name>dev311432</instance_name>
+        <name>sys_security_acl_a59cdd6483d2aa50fa7e7230feaad394</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to table="incident">state=3^EQ<item display_value="On Hold" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></applies_to><condition/><controlled_by_refs/><decision_type>deny</decision_type><description>Deny write for records in incident if the record matches the criteria (state=3^EQ), unless users have the role x_1755686_test_acl.test_role.</description><local_or_existing>Local</local_or_existing><name>incident</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-19 13:32:26</sys_created_on><sys_id>a59cdd6483d2aa50fa7e7230feaad394</sys_id><sys_mod_count>4</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Test ACL" source="x_1755686_test_acl">cf2960ec835e6a50fa7e7230feaad3dc</sys_package><sys_policy/><sys_scope display_value="Test ACL">cf2960ec835e6a50fa7e7230feaad3dc</sys_scope><sys_update_name>sys_security_acl_a59cdd6483d2aa50fa7e7230feaad394</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-19 14:13:20</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1950338712</payload_hash>
+        <record_name>incident</record_name>
+        <reverted_from/>
+        <source>432960ec835e6a50fa7e7230feaad3e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 14:13:21</sys_created_on>
+        <sys_id>157a2de88316aa50fa7e7230feaad33d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19788897dce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-19 14:13:21</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>d97a2de82516aa50a785c49afbdd643c</update_guid>
+        <update_guid_history>d97a2de82516aa50a785c49afbdd643c:1950338712,330ae5e40116aa506ace5dd87f926c08:-1444993408,da07e9a4f016aa503edf5eae1292c20b:1220773237,c6442920e216aa5061a034841c70688b:1950338712,c611e96c0ad2aa50e00b742a6e377c9d:478330135</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 14:42:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>43318f24c0614b1d8a53201d520e2189</sys_id>
+        <sys_metadata>a59cdd6483d2aa50fa7e7230feaad394</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>incident</sys_name>
+        <sys_package display_value="Test ACL" source="x_1755686_test_acl">cf2960ec835e6a50fa7e7230feaad3dc</sys_package>
+        <sys_parent display_value="incident">434610af98a0221055904c91e2b654d1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Test ACL">cf2960ec835e6a50fa7e7230feaad3dc</sys_scope>
+        <sys_scope_delete display_value="">266115d9ad464c74a363b6b1dc1b9a91</sys_scope_delete>
+        <sys_update_name>sys_security_acl_a59cdd6483d2aa50fa7e7230feaad394</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_a59cdd6483d2aa50fa7e7230feaad394">157a2de88316aa50fa7e7230feaad33d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-19 14:42:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
